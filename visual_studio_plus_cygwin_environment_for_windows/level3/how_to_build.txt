@@ -1,0 +1,14 @@
+// @file how_to_build.txt
+// @brief Compilation test
+// @author Mamoru Kaminaga
+// @date 2017-04-11 14:19:53
+//
+// Copyright (c) 2017 Mamoru Kaminaga
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
+Command:
+cl /c /W4 /D"UNICODE" /D"_UNICODE" /EHsc main.cc
+cl /c /W4 /D"UNICODE" /D"_UNICODE" /EHsc hello.cc
+lib hello.obj
+"/cygdrive/c/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.10.25017/bin/HostX86/x86/link.exe" /SUBSYSTEM:CONSOLE main.obj hello.lib
