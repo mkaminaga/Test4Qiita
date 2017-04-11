@@ -1,2 +1,5 @@
 # Test4Qiita
-Sample programs for article of qiita.
+  Sample software for article of qiita.
+
+## License
+  This software is released under the MIT License, see LICENSE.
